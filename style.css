@@ -1,0 +1,42 @@
+* {
+  font-family: monospace;
+}
+
+body, html, {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #D1B4D4;
+}
+
+.parent {
+  display: flex;
+}
+
+.parent div {
+  background-color: #ccc;
+  margin: 16px;
+  padding: 16px;
+}
+
+.parent > div {
+  background-color: #fff;
+}
+
+.parent div > p {
+  text-decoration: underline;
+}
+
+.parent div p:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+p + p {
+  margin-top: 32px;
+}
+
+h1 + p {
+}
