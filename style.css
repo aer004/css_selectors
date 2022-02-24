@@ -33,10 +33,3 @@ body {
   text-decoration: underline;
   font-weight: bold;
 }
-
-p + p {
-  margin-top: 32px;
-}
-
-h1 + p {
-}
